@@ -41,17 +41,16 @@ sidebar:
 #   summary: |
 #     Summarise your career here
 
-# todo: 졸업 연월이 맞는지 확인
 # todo: phd student 시절에 어떤 일들을 했는지 bullet으로 넣기
 education:
   title: Education
   info:
     - degree: Ph.D. Student in Graduate School of Artificial Intelligence
       university: Pohang University of Science of Technology (POSTECH)
-      time: 2021.7 - 2022.6
+      time: 2021.9 - 2022.6
     - degree: B.S. double major in Convergence IT Engineering & Computer Science
       university: Pohang University of Science of Technology (POSTECH)
-      time: 2017.2 - 2021.6
+      time: 2017.2 - 2021.8
 
 # todo: 각 항목에 어떤 일을 했었는지 설명 bullet 써서 적기
 experiences:
