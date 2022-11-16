@@ -48,6 +48,9 @@ education:
     - degree: Ph.D. Student in Graduate School of Artificial Intelligence
       university: Pohang University of Science of Technology (POSTECH)
       time: 2021.9 - 2022.6
+      details: |
+        - first
+        - second
     - degree: B.S. double major in Convergence IT Engineering & Computer Science
       university: Pohang University of Science of Technology (POSTECH)
       time: 2017.2 - 2021.8
@@ -59,6 +62,10 @@ experiences:
     - role: Internship Program
       time: 2020.06 - 2021.08
       company: Data Systems Lab in POSTECH
+      details: |
+        - first
+          - inner first
+        - second
     - role: Internship Program
       time: 2019.06 - 2019.12
       company: Computing and Control Engineering Lab in POSTECH
