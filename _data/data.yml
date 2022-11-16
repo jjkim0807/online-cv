@@ -53,7 +53,6 @@ education:
       university: Pohang University of Science of Technology (POSTECH)
       time: 2017.2 - 2021.6
 
-# todo: 한수희 교수님 랩 연참 기간, 한욱신 교수님 랩 연참 기간 제대로 넣기
 # todo: 각 항목에 어떤 일을 했었는지 설명 bullet 써서 적기
 experiences:
   title: Experiences
@@ -62,8 +61,8 @@ experiences:
       time: 2020.06 - 2021.08
       company: Data Systems Lab in POSTECH
     - role: Internship Program
-      time: 2020.06 - 2021.08
-      company: Data Systems Lab in POSTECH
+      time: 2019.06 - 2019.12
+      company: Computing and Control Engineering Lab in POSTECH
     - role: Internship Program
       time: 2019.01 - 2019.02
       company: Samsung Electronics AI Development Group
