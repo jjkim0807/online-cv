@@ -49,9 +49,8 @@ education:
       university: Pohang University of Science of Technology (POSTECH)
       time: 2021.9 - 2022.6
       details: |
-        # todo: details 채우기
         # todo: details 영어로 formal 하게 변환
-        - SQLBot nl2sql 삼성 과제
+        - SQLBot
           # todo: 아래 링크 sqlbot과 연결
           # https://www.youtube.com/watch?v=CbpzMidK9Ms&ab_channel=JunghoCho
         - 서버 관리자
@@ -70,9 +69,9 @@ experiences:
         # todo: 아래 링크 연결
         # dslab.postech.ac.kr
       details: |
-        # todo: details 채우기
         # todo: details 영어로 formal 하게 변환
         - Multi hop QA 관련 연구
+        - 삼성 데이터 강의 조교 (Apache Spark & Deep Learning)
     - role: Internship Program
       time: 2019.06 - 2019.12
       company:
@@ -80,16 +79,15 @@ experiences:
         # todo: 아래 링크 연결
         # https://www.cocel.postech.ac.kr/
       details: |
-        # todo: details 채우기
         # todo: details 영어로 formal 하게 변환
-        -
+        - 음성 비서 증강용 휴대폰 거치 로봇 팔 제작
+        - 드론 날개 소리를 이용한 드론 착지 유도 시스템 구축
     - role: Internship Program
       time: 2019.01 - 2019.02
       company: Samsung Electronics AI Development Group
       details: |
-        # todo: details 채우기
-        # todo: details 영어로 formal 하게 변환
-        -
+        # todo: 아래 내용 관련한 저장해둔 자료가 있는지 확인해보기
+        - BERT 모델 tensorflow로 변환 및 빅스비 캡슐 classifier에 적용
     - role: Internship Program
       time: 2018.06 - 2018.08
       company:
