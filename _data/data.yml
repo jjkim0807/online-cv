@@ -94,7 +94,7 @@ skills:
   title: Skills & Proficiency
 
   # todo: 언어와 툴셋으로 영역을 나누든지 하자
-  toolset:
+  tools:
     - name: Pytorch
       level: 90%
     - name: TensorFlow
@@ -104,6 +104,7 @@ skills:
     - name: React Native
       level: 30%
 
+  langs:
     - name: Python
       level: 100%
     - name: C & C++
