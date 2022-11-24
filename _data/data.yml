@@ -41,64 +41,63 @@ sidebar:
 #   summary: |
 #     Summarise your career here
 
-# todo: phd student 시절에 어떤 일들을 했는지 bullet으로 넣기
 education:
   title: Education
   info:
     - degree: Ph.D. Student in Graduate School of Artificial Intelligence
-      university: Pohang University of Science of Technology (POSTECH)
+      # todo: 아래 링크 연결
+      # dslab.postech.ac.kr
+      university: Data Systems Lab in Pohang University of Science of Technology (POSTECH)
       time: 2021.9 - 2022.6
+      # todo: 아래 링크 sqlbot과 연결
+      # https://www.youtube.com/watch?v=CbpzMidK9Ms&ab_channel=JunghoCho
       details: |
-        # todo: details 영어로 formal 하게 변환
-        - SQLBot
-          # todo: 아래 링크 sqlbot과 연결
-          # https://www.youtube.com/watch?v=CbpzMidK9Ms&ab_channel=JunghoCho
-        - 서버 관리자
+        - Research on text-to-SQL (SQLBot)
+        - Server Management
     - degree: B.S. double major in Convergence IT Engineering & Computer Science
       university: Pohang University of Science of Technology (POSTECH)
       time: 2017.2 - 2021.8
 
-# todo: 각 항목에 어떤 일을 했었는지 설명 bullet 써서 적기
 experiences:
   title: Experiences
   info:
     - role: Internship Program
       time: 2020.06 - 2021.08
       company:
-        Data Systems Lab in POSTECH
         # todo: 아래 링크 연결
         # dslab.postech.ac.kr
+        Data Systems Lab in Pohang University of Science of Technology (POSTECH)
       details: |
-        # todo: details 영어로 formal 하게 변환
-        - Multi hop QA 관련 연구
-        - 삼성 데이터 강의 조교 (Apache Spark & Deep Learning)
+        - Research on Multi-Hop Question Answering
+        - Teaching Assistant for Samsung Big Data Progamming Lecture
     - role: Internship Program
       time: 2019.06 - 2019.12
       company:
         Computing and Control Engineering Lab in POSTECH
         # todo: 아래 링크 연결
         # https://www.cocel.postech.ac.kr/
+      # todo: details 영어로 formal 하게 변환
       details: |
-        # todo: details 영어로 formal 하게 변환
-        - 음성 비서 증강용 휴대폰 거치 로봇 팔 제작
-        - 드론 날개 소리를 이용한 드론 착지 유도 시스템 구축
+        - Smartphone-mounted robot arm for voice assistant augmentation
+        - Drone landing guidance system using drone sound
     - role: Internship Program
       time: 2019.01 - 2019.02
       company: Samsung Electronics AI Development Group
+      # todo: 아래 내용 관련한 저장해둔 자료가 있는지 확인해보기
       details: |
-        # todo: 아래 내용 관련한 저장해둔 자료가 있는지 확인해보기
-        - BERT 모델 tensorflow로 변환 및 빅스비 캡슐 classifier에 적용
+        - Implementation of BERT model with tensorflow
+        - Apply BERT to the Bixby capsule classifier
     - role: Internship Program
       time: 2018.06 - 2018.08
       company:
         Robomation
         # todo: 아래 링크 연결
         # https://robomation.net/
+      # todo: 아래 링크 연결
+      # https://robomation.net/?page_id=3155
+      # https://robomation.net/?p=6426
       details: |
-        - 신제품 PockeTurtle & Cheese Stick 개발 중 Quality Assurance 업무
-          # todo: 아래 링크 연결
-          # https://robomation.net/?page_id=3155
-          # https://robomation.net/?p=6426
+        - Quality Assurance work during development of PockeTurtle & Cheese Stick
     - role: Exchange Student
       time: 2017.09 - 2017.12
       company: Stony Brook University, New York
