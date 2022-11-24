@@ -3,7 +3,7 @@
 #
 
 sidebar:
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -17,7 +17,7 @@ sidebar:
   linkedin: jjkim0807
   github: jjkim0807
   # todo: pdf 파일로 자동으로 변환해서 다운받을 수 있는 링크 연결하기
-  pdf:
+  pdf: jjkim0807-github-io-online-cv-print.pdf
 
   languages:
     title: Languages
