@@ -16,7 +16,6 @@ sidebar:
   citizenship: Korea
   linkedin: jjkim0807
   github: jjkim0807
-  # todo: pdf 파일로 자동으로 변환해서 다운받을 수 있는 링크 연결하기
   pdf: jjkim0807-github-io-online-cv-print.pdf
 
   languages:
@@ -45,14 +44,11 @@ education:
   title: Education
   info:
     - degree: Ph.D. Student in Graduate School of Artificial Intelligence
-      # todo: 아래 링크 연결
-      # dslab.postech.ac.kr
-      university: Data Systems Lab in Pohang University of Science of Technology (POSTECH)
+      university: |
+        [Data Systems Lab](https://dslab.postech.ac.kr) in Pohang University of Science of Technology (POSTECH)
       time: 2021.9 - 2022.6
-      # todo: 아래 링크 sqlbot과 연결
-      # https://www.youtube.com/watch?v=CbpzMidK9Ms&ab_channel=JunghoCho
       details: |
-        - Research on text-to-SQL (SQLBot)
+        - Research on text-to-SQL ([SQLBot](https://www.youtube.com/watch?v=CbpzMidK9Ms&ab_channel=JunghoCho))
         - Server Management
     - degree: B.S. double major in Convergence IT Engineering & Computer Science
       university: Pohang University of Science of Technology (POSTECH)
@@ -63,41 +59,30 @@ experiences:
   info:
     - role: Internship Program
       time: 2020.06 - 2021.08
-      company:
-        # todo: 아래 링크 연결
-        # dslab.postech.ac.kr
-        Data Systems Lab in Pohang University of Science of Technology (POSTECH)
+      company: |
+        [Data Systems Lab](https://dslab.postech.ac.kr) in Pohang University of Science of Technology (POSTECH)
       details: |
         - Research on Multi-Hop Question Answering
         - Teaching Assistant for Samsung Big Data Progamming Lecture
     - role: Internship Program
       time: 2019.06 - 2019.12
-      company:
-        Computing and Control Engineering Lab in POSTECH
-        # todo: 아래 링크 연결
-        # https://www.cocel.postech.ac.kr/
-      # todo: details 영어로 formal 하게 변환
+      company: |
+        [Computing and Control Engineering Lab](https://www.cocel.postech.ac.kr/) in POSTECH
       details: |
         - Smartphone-mounted robot arm for voice assistant augmentation
         - Drone landing guidance system using drone sound
     - role: Internship Program
       time: 2019.01 - 2019.02
       company: Samsung Electronics AI Development Group
-      # todo: 아래 내용 관련한 저장해둔 자료가 있는지 확인해보기
       details: |
         - Implementation of BERT model with tensorflow
         - Apply BERT to the Bixby capsule classifier
     - role: Internship Program
       time: 2018.06 - 2018.08
-      company:
-        Robomation
-        # todo: 아래 링크 연결
-        # https://robomation.net/
-      # todo: 아래 링크 연결
-      # https://robomation.net/?page_id=3155
-      # https://robomation.net/?p=6426
+      company: |
+        [Robomation](https://robomation.net/)
       details: |
-        - Quality Assurance work during development of PockeTurtle & Cheese Stick
+        - Quality Assurance work during development of [PockeTurtle](https://robomation.net/?page_id=3155) & [Cheese Stick](https://robomation.net/?p=6426)
     - role: Exchange Student
       time: 2017.09 - 2017.12
       company: Stony Brook University, New York
