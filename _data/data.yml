@@ -16,7 +16,7 @@ sidebar:
   citizenship: Korea
   linkedin: jjkim0807
   github: jjkim0807
-  pdf: jjkim0807-github-io-online-cv-print.pdf
+  # pdf: jjkim0807-github-io-online-cv-print.pdf
 
   languages:
     title: Languages
@@ -93,7 +93,6 @@ experiences:
 skills:
   title: Skills & Proficiency
 
-  # todo: 언어와 툴셋으로 영역을 나누든지 하자
   tools:
     - name: Pytorch
       level: 90%
