@@ -9,27 +9,9 @@
   </h2>
 
   <div class="skillset">
-    <h3 class="section-title">Tools</h3>
-    {% for skill in skills.tools %}
-    <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}"></div>
-      </div>
-      <!--//level-bar-->
-    </div>
-    <!--//item-->
-    {% endfor %}
-    <h3 class="section-title">Languages</h3>
-    {% for skill in skills.langs %}
-    <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}"></div>
-      </div>
-      <!--//level-bar-->
+    {% for group in skills.groups %}
+    <div class="item" style="margin-bottom: 0.5em;">
+      <strong>{{ group.name }}:</strong> {{ group.items }}
     </div>
     <!--//item-->
     {% endfor %}

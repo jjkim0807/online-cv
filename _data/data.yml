@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Jaejin Kim
-  tagline: AI/ML Researcher — LLM Code Generation & Evaluation
+  tagline: ML / AI Engineer — LLM Code Generation & Applied ML
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -29,9 +29,9 @@ sidebar:
         level: High-Intermediate
 
 career-profile:
-  title: Research Interests
+  title: Summary
   summary: |
-    LLM-based code generation, program execution / test-output prediction, and evaluation of code LLMs.
+    M.S. in Artificial Intelligence (SNU) specializing in **LLM-based code generation and evaluation**, with 3 papers at ACL / COLING (ArchCode: 37 citations). Combine NLP research with **end-to-end engineering** — independently designed and shipped multi-agent LLM systems, an MCP tool server, on-device ML apps, and a knowledge-graph pipeline. Comfortable across research prototyping and production delivery (Python, PyTorch, LLM tooling, Android).
 
 education:
   title: Education
@@ -58,34 +58,55 @@ education:
       time: 2017.2 - 2021.8
 
 experiences:
-  title: Experiences
+  title: Experience
   info:
-    - role: Internship Program
+    - role: Graduate Research Assistant
+      time: 2023.9 - 2025.8
+      company: |
+        Language & Data Intelligence Lab, Seoul National University (SNU)
+      details: |
+        - Co-developed LLM code-generation and code-evaluation methods → 3 peer-reviewed papers (ACL 2024, COLING 2025, Findings of ACL 2026); advised by Prof. Seung-won Hwang
+        - Built experiment pipelines evaluating code LLMs on HumanEval, CodeContests, MultiPL-E, LiveCodeBench, BigCodeBench, and DevEval
+        - [본인 담당 컴포넌트 / 기여 정량화 채우기]
+    - role: Research Intern — Data Systems Lab
       time: 2020.06 - 2021.08
       company: |
-        [Data Systems Lab](https://dslab.postech.ac.kr) in Pohang University of Science of Technology (POSTECH)
+        [Data Systems Lab](https://dslab.postech.ac.kr), Pohang University of Science and Technology (POSTECH)
       details: |
-        - Research on Multi-Hop Question Answering
-        - Teaching Assistant for Samsung Big Data Progamming Lecture
-    - role: Internship Program
+        - Researched multi-hop question answering
+        - Teaching Assistant, Samsung Big Data programming course
+    - role: Research Intern — Computing & Control Engineering Lab
       time: 2019.06 - 2019.12
       company: |
-        [Computing and Control Engineering Lab](https://www.cocel.postech.ac.kr/) in POSTECH
+        [COCEL](https://www.cocel.postech.ac.kr/), POSTECH
       details: |
-        - Smartphone-mounted robot arm for voice assistant augmentation
-        - Drone landing guidance system using drone sound
-    - role: Internship Program
+        - Voice-assistant robot arm augmentation; drone-sound landing guidance
+    - role: Research Intern — AI Development Group
       time: 2019.01 - 2019.02
-      company: Samsung Electronics AI Development Group
+      company: Samsung Electronics
       details: |
-        - Implementation of BERT model with tensorflow
-        - Apply BERT to the Bixby capsule classifier
-    - role: Internship Program
+        - Built and fine-tuned a BERT-based NLU model and integrated it into the Bixby capsule classifier ([데이터 규모 / 정확도 개선 채우기])
+    - role: QA Intern
       time: 2018.06 - 2018.08
       company: |
         [Robomation](https://robomation.net/)
       details: |
-        - Quality Assurance work during development of [PockeTurtle](https://robomation.net/?page_id=3155) & [Cheese Stick](https://robomation.net/?p=6426)
+        - QA during development of [PockeTurtle](https://robomation.net/?page_id=3155) & [Cheese Stick](https://robomation.net/?p=6426) educational robots
+
+projects:
+  title: Selected Projects
+  intro: Solo developer; repos private (demo on request).
+  assignments:
+    - title: "MaestroACP — autonomous multi-agent orchestration system"
+      tagline: "Python, SQLite, LLM APIs. Message-based planner/orchestrator/runner dispatching coding tasks to LLM agents across hosts, with task ledger, memory store, and background daemons."
+    - title: "youtube-search-mcp — LLM tool-use server"
+      tagline: "Python, MCP, YouTube Data API v3. Model Context Protocol server exposing search + video verification as callable tools for LLM agents."
+    - title: "Pebble — on-device Go (Baduk) AI app"
+      tagline: "Dart/Flutter, KataGo. Mobile Go app running KataGo inference fully on-device (no server), with a Lichess-style UX."
+    - title: "WorldGraph — LLM-powered knowledge graph"
+      tagline: "Python, Neo4j. Builds a typed entity graph from documents via LLM-based relation inference."
+    - title: "DanceMirror — shipped Android app"
+      tagline: "Kotlin, CI/CD. Dance-practice app with an automated release pipeline (each main push auto-publishes a release APK)."
 
 publications:
   title: Publications
@@ -101,7 +122,17 @@ publications:
     - title: "ArchCode: Incorporating Software Requirements in Code Generation with Large Language Models"
       link: https://aclanthology.org/2024.acl-long.730/
       authors: Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang
-      conference: ACL 2024
+      conference: ACL 2024 · 37 citations
+
+skills:
+  title: Skills
+  groups:
+    - name: Languages
+      items: Python, C/C++, Java, Kotlin, SQL, Dart
+    - name: ML / NLP
+      items: PyTorch, HuggingFace Transformers, LLMs (prompting, RAG, evaluation), BERT, code-generation models, on-device inference
+    - name: Systems &amp; Tools
+      items: Multi-agent orchestration, Model Context Protocol (MCP), Docker, Git, Neo4j, REST APIs, Android
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
