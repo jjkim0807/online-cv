@@ -12,7 +12,7 @@ sidebar:
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: starjm0807@postech.ac.kr
+  email: jaejin.kim@snu.ac.kr
   citizenship: Korea
   linkedin: jjkim0807
   github: jjkim0807
@@ -42,9 +42,16 @@ sidebar:
 education:
   title: Education
   info:
-    - degree: Ph.D. Student in Graduate School of Artificial Intelligence
+    - degree: M.S. in Artificial Intelligence
       university: |
-        [Data Systems Lab](https://dslab.postech.ac.kr) in Pohang University of Science of Technology (POSTECH)
+        [Language & Data Intelligence Lab](https://ldilab.github.io) — Interdisciplinary Program in Artificial Intelligence (협동과정 인공지능전공), Seoul National University (SNU)
+      time: 2023.9 - 2025.8
+      details: |
+        - Advised by Prof. Seung-won Hwang (황승원)
+        - Research on LLM-based code generation and test / execution output prediction
+    - degree: Graduate Research, Graduate School of Artificial Intelligence
+      university: |
+        [Data Systems Lab](https://dslab.postech.ac.kr) in Pohang University of Science and Technology (POSTECH)
       time: 2021.9 - 2022.6
       details: |
         - Research on text-to-SQL ([SQLBot](https://www.youtube.com/watch?v=CbpzMidK9Ms&ab_channel=JunghoCho))
@@ -52,7 +59,7 @@ education:
     - degree: B.S. double major in Convergence IT Engineering & Computer Science
       details: |
         - Honors: cum laude
-      university: Pohang University of Science of Technology (POSTECH)
+      university: Pohang University of Science and Technology (POSTECH)
       time: 2017.2 - 2021.8
 
 experiences:
@@ -90,6 +97,20 @@ experiences:
     - role: Exchange Student
       time: 2017.06 - 2017.08
       company: University of California, Berkeley
+
+publications:
+  title: Publications
+  papers:
+    - title: "DuET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode"
+      authors: Hojae Han, Jaejin Kim, Seung-won Hwang, Yu Jin Kim, Moontae Lee
+      conference: Findings of ACL 2026 (to appear)
+    - title: "PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation"
+      authors: Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang
+      conference: COLING 2025 (short)
+    - title: "ArchCode: Incorporating Software Requirements in Code Generation with Large Language Models"
+      link: https://aclanthology.org/2024.acl-long.730/
+      authors: Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang
+      conference: ACL 2024
 
 skills:
   title: Skills & Proficiency
