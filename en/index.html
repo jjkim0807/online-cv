@@ -1,0 +1,22 @@
+---
+layout: default
+lang: en
+permalink: /en/
+---
+<div class="lang-switch" style="text-align:right; font-size:0.85em; margin-bottom:1em;">
+  <strong>EN</strong> · <a href="{{ site.baseurl }}/ko/">KO</a>
+</div>
+
+{% include career-profile.html %}
+
+{% include skills.html %}
+
+{% include experiences.html %}
+
+{% include projects.html %}
+
+{% include publications.html %}
+
+{% unless site.data[page.lang].sidebar.education %}
+  {% include education.html %}
+{% endunless %}

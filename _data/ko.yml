@@ -1,0 +1,128 @@
+#
+# 한국어 버전 — /online-cv/ko/ 에서 렌더
+#
+
+sidebar:
+  about: False
+  education: False
+
+  name: Jaejin Kim
+  tagline: ML / AI 엔지니어 — LLM 코드 생성 & 응용 ML
+  avatar: profile.jpg
+
+  email: jaejin.kim@snu.ac.kr
+  citizenship: 대한민국
+  linkedin: jjkim0807
+  github: jjkim0807
+  googlescholar: tBScgK4AAAAJ
+  dblp: 232/0704
+
+  languages:
+    title: 언어
+    info:
+      - idiom: 한국어
+        level: 모국어
+      - idiom: 영어
+        level: 중상급
+
+career-profile:
+  title: 요약
+  summary: |
+    서울대학교 인공지능 석사로 **LLM 기반 코드 생성·평가**를 전공했으며, ACL·COLING에 논문 3편(ArchCode 인용 37회)을 발표했습니다. NLP 연구와 **엔드투엔드 엔지니어링**을 겸비 — 멀티에이전트 LLM 시스템, MCP 도구 서버, 온디바이스 ML 앱, 지식그래프 파이프라인을 단독으로 설계·배포했습니다. 연구 프로토타이핑부터 프로덕션 배포까지 두루 경험(Python, PyTorch, LLM 툴링, Android).
+
+skills:
+  title: 기술 스택
+  groups:
+    - name: 언어
+      items: Python, C/C++, Java, Kotlin, SQL, Dart
+    - name: ML / NLP
+      items: PyTorch, HuggingFace Transformers, LLM(프롬프팅·RAG·평가), BERT, 코드 생성 모델, 온디바이스 추론
+    - name: 시스템 &amp; 도구
+      items: 멀티에이전트 오케스트레이션, Model Context Protocol(MCP), Docker, Git, Neo4j, REST API, Android
+
+experiences:
+  title: 경력
+  info:
+    - role: 대학원 연구조교
+      time: 2023.9 - 2025.8
+      company: |
+        서울대학교 언어·데이터지능 연구실 (LDILab)
+      details: |
+        - LLM 코드 생성·평가 기법 공동 개발 → 논문 3편(ACL 2024, COLING 2025, Findings of ACL 2026); 지도교수 황승원
+        - HumanEval, CodeContests, MultiPL-E, LiveCodeBench, BigCodeBench, DevEval에서 코드 LLM 평가 파이프라인 구축
+    - role: 연구 인턴 — Data Systems Lab
+      time: 2020.06 - 2021.08
+      company: |
+        [Data Systems Lab](https://dslab.postech.ac.kr), POSTECH
+      details: |
+        - 멀티홉 질의응답(Multi-Hop QA) 연구
+        - 삼성 빅데이터 프로그래밍 강의 조교
+    - role: 연구 인턴 — 컴퓨팅·제어공학 연구실 (COCEL)
+      time: 2019.06 - 2019.12
+      company: |
+        [COCEL](https://www.cocel.postech.ac.kr/), POSTECH
+      details: |
+        - 음성비서 보강용 로봇팔; 드론 소리 기반 착륙 유도 시스템
+    - role: 연구 인턴 — AI개발그룹
+      time: 2019.01 - 2019.02
+      company: 삼성전자
+      details: |
+        - BERT 기반 NLU 모델 구축·파인튜닝 후 Bixby capsule classifier에 통합
+    - role: QA 인턴
+      time: 2018.06 - 2018.08
+      company: |
+        [Robomation](https://robomation.net/)
+      details: |
+        - [PockeTurtle](https://robomation.net/?page_id=3155) & [Cheese Stick](https://robomation.net/?p=6426) 교육용 로봇 개발 QA
+
+projects:
+  title: 주요 프로젝트
+  intro: 단독 개발 · 레포 비공개(요청 시 데모).
+  assignments:
+    - title: "MaestroACP — 자율 멀티에이전트 오케스트레이션 시스템"
+      tagline: "Python, SQLite, LLM API. 메시지 기반 플래너/오케스트레이터/러너가 여러 호스트의 LLM 에이전트에 코딩 태스크를 분배하며, 태스크 원장·메모리 저장소·백그라운드 데몬을 갖춤."
+    - title: "youtube-search-mcp — LLM 도구 서버"
+      tagline: "Python, MCP, YouTube Data API v3. 검색·영상 검증을 LLM 에이전트용 도구로 노출하는 Model Context Protocol 서버."
+    - title: "Pebble — 온디바이스 바둑 AI 앱"
+      tagline: "Dart/Flutter, KataGo. KataGo 추론을 완전히 온디바이스(서버 없이)로 구동하는 모바일 바둑 앱, Lichess 스타일 UX."
+    - title: "WorldGraph — LLM 기반 지식그래프"
+      tagline: "Python, Neo4j. LLM 관계 추론으로 문서에서 타입드 엔티티 그래프를 구축."
+    - title: "DanceMirror — 출시 안드로이드 앱"
+      tagline: "Kotlin, CI/CD. 자동 릴리즈 파이프라인(main 푸시마다 릴리즈 APK 자동 배포)을 갖춘 춤 연습 앱."
+
+publications:
+  title: 논문
+  papers:
+    - title: "DuET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode"
+      link: https://arxiv.org/abs/2604.11514
+      authors: Hojae Han, Jaejin Kim, Seung-won Hwang, Yu Jin Kim, Moontae Lee
+      conference: Findings of ACL 2026 (to appear)
+    - title: "PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation"
+      link: https://aclanthology.org/2025.coling-main.534/
+      authors: Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang
+      conference: COLING 2025 (short)
+    - title: "ArchCode: Incorporating Software Requirements in Code Generation with Large Language Models"
+      link: https://aclanthology.org/2024.acl-long.730/
+      authors: Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang
+      conference: ACL 2024 · 인용 37회
+
+education:
+  title: 학력
+  info:
+    - degree: 인공지능 석사 (M.S.)
+      university: |
+        [언어·데이터지능 연구실](https://ldilab.github.io) — 서울대학교 협동과정 인공지능전공
+      time: 2023.9 - 2025.8
+      details: |
+        - 지도교수 황승원
+        - LLM 기반 코드 생성 및 테스트/실행 출력 예측 연구
+    - degree: 융합IT공학·컴퓨터공학 복수전공 학사 (B.S.)
+      university: |
+        포항공과대학교 (POSTECH)
+      time: 2017.2 - 2021.8
+      details: |
+        - 우등 졸업 (cum laude)
+        - 교환학기: UC Berkeley (2017.06–08); Stony Brook University (2017.09–12)
+
+footer: >
+  © 2026 Jaejin Kim · 테마 by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

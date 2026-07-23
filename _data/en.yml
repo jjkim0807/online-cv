@@ -1,17 +1,15 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# English version — rendered at /online-cv/en/
 #
 
 sidebar:
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
+  about: False
+  education: False
 
-  # Profile information
   name: Jaejin Kim
   tagline: ML / AI Engineer — LLM Code Generation & Applied ML
-  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.jpg
 
-  # Sidebar links
   email: jaejin.kim@snu.ac.kr
   citizenship: Korea
   linkedin: jjkim0807
@@ -24,7 +22,6 @@ sidebar:
     info:
       - idiom: Korean
         level: Native
-
       - idiom: English
         level: High-Intermediate
 
@@ -33,29 +30,15 @@ career-profile:
   summary: |
     M.S. in Artificial Intelligence (SNU) specializing in **LLM-based code generation and evaluation**, with 3 papers at ACL / COLING (ArchCode: 37 citations). Combine NLP research with **end-to-end engineering** — independently designed and shipped multi-agent LLM systems, an MCP tool server, on-device ML apps, and a knowledge-graph pipeline. Comfortable across research prototyping and production delivery (Python, PyTorch, LLM tooling, Android).
 
-education:
-  title: Education
-  info:
-    - degree: M.S. in Artificial Intelligence
-      university: |
-        [Language & Data Intelligence Lab](https://ldilab.github.io) — Interdisciplinary Program in Artificial Intelligence (협동과정 인공지능전공), Seoul National University (SNU)
-      time: 2023.9 - 2025.8
-      details: |
-        - Advised by Prof. Seung-won Hwang (황승원)
-        - Research on LLM-based code generation and test / execution output prediction
-    - degree: Graduate Research, Graduate School of Artificial Intelligence
-      university: |
-        [Data Systems Lab](https://dslab.postech.ac.kr) in Pohang University of Science and Technology (POSTECH)
-      time: 2021.9 - 2022.6
-      details: |
-        - Research on text-to-SQL ([SQLBot](https://www.youtube.com/watch?v=CbpzMidK9Ms&ab_channel=JunghoCho))
-        - Server Management
-    - degree: B.S. double major in Convergence IT Engineering & Computer Science
-      details: |
-        - Honors: cum laude
-        - Exchange semesters: University of California, Berkeley (2017.06–2017.08); Stony Brook University, New York (2017.09–2017.12)
-      university: Pohang University of Science and Technology (POSTECH)
-      time: 2017.2 - 2021.8
+skills:
+  title: Skills
+  groups:
+    - name: Languages
+      items: Python, C/C++, Java, Kotlin, SQL, Dart
+    - name: ML / NLP
+      items: PyTorch, HuggingFace Transformers, LLMs (prompting, RAG, evaluation), BERT, code-generation models, on-device inference
+    - name: Systems &amp; Tools
+      items: Multi-agent orchestration, Model Context Protocol (MCP), Docker, Git, Neo4j, REST APIs, Android
 
 experiences:
   title: Experience
@@ -67,7 +50,6 @@ experiences:
       details: |
         - Co-developed LLM code-generation and code-evaluation methods → 3 peer-reviewed papers (ACL 2024, COLING 2025, Findings of ACL 2026); advised by Prof. Seung-won Hwang
         - Built experiment pipelines evaluating code LLMs on HumanEval, CodeContests, MultiPL-E, LiveCodeBench, BigCodeBench, and DevEval
-        - [본인 담당 컴포넌트 / 기여 정량화 채우기]
     - role: Research Intern — Data Systems Lab
       time: 2020.06 - 2021.08
       company: |
@@ -85,7 +67,7 @@ experiences:
       time: 2019.01 - 2019.02
       company: Samsung Electronics
       details: |
-        - Built and fine-tuned a BERT-based NLU model and integrated it into the Bixby capsule classifier ([데이터 규모 / 정확도 개선 채우기])
+        - Built and fine-tuned a BERT-based NLU model and integrated it into the Bixby capsule classifier
     - role: QA Intern
       time: 2018.06 - 2018.08
       company: |
@@ -124,15 +106,23 @@ publications:
       authors: Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang
       conference: ACL 2024 · 37 citations
 
-skills:
-  title: Skills
-  groups:
-    - name: Languages
-      items: Python, C/C++, Java, Kotlin, SQL, Dart
-    - name: ML / NLP
-      items: PyTorch, HuggingFace Transformers, LLMs (prompting, RAG, evaluation), BERT, code-generation models, on-device inference
-    - name: Systems &amp; Tools
-      items: Multi-agent orchestration, Model Context Protocol (MCP), Docker, Git, Neo4j, REST APIs, Android
+education:
+  title: Education
+  info:
+    - degree: M.S. in Artificial Intelligence
+      university: |
+        [Language & Data Intelligence Lab](https://ldilab.github.io) — Interdisciplinary Program in Artificial Intelligence, Seoul National University (SNU)
+      time: 2023.9 - 2025.8
+      details: |
+        - Advised by Prof. Seung-won Hwang
+        - Research on LLM-based code generation and test / execution output prediction
+    - degree: B.S. double major in Convergence IT Engineering & Computer Science
+      university: |
+        Pohang University of Science and Technology (POSTECH)
+      time: 2017.2 - 2021.8
+      details: |
+        - Honors: cum laude
+        - Exchange semesters: UC Berkeley (2017.06–08); Stony Brook University (2017.09–12)
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  © 2026 Jaejin Kim · Theme by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
