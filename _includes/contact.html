@@ -55,6 +55,13 @@
         >{{ sidebar.github }}</a
       >
     </li>
+    {% endif %} {% if sidebar.googlescholar %}
+    <li class="googlescholar">
+      <i class="fas fa-graduation-cap"></i>
+      <a href="https://scholar.google.com/citations?user={{ sidebar.googlescholar }}" target="_blank"
+        >Google Scholar</a
+      >
+    </li>
     {% endif %} {% if sidebar.dblp %}
     <li class="dblp">
       <i class="fas fa-book"></i>
