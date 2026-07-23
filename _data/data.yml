@@ -26,14 +26,6 @@ sidebar:
       - idiom: English
         level: High-Intermediate
 
-  interests:
-    title: Interests
-    info:
-      - item: Guitar
-        link:
-      - item: Vocal
-        link:
-
 # career-profile:
 #   title: Career Profile
 #   summary: |
@@ -102,40 +94,17 @@ publications:
   title: Publications
   papers:
     - title: "DuET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode"
+      link: https://arxiv.org/abs/2604.11514
       authors: Hojae Han, Jaejin Kim, Seung-won Hwang, Yu Jin Kim, Moontae Lee
       conference: Findings of ACL 2026 (to appear)
     - title: "PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation"
+      link: https://aclanthology.org/2025.coling-main.534/
       authors: Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang
       conference: COLING 2025 (short)
     - title: "ArchCode: Incorporating Software Requirements in Code Generation with Large Language Models"
       link: https://aclanthology.org/2024.acl-long.730/
       authors: Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang
       conference: ACL 2024
-
-skills:
-  title: Skills & Proficiency
-
-  tools:
-    - name: Pytorch
-      level: 90%
-    - name: TensorFlow
-      level: 70%
-    - name: Apache Spark
-      level: 30%
-    - name: React Native
-      level: 30%
-
-  langs:
-    - name: Python
-      level: 100%
-    - name: C & C++
-      level: 80%
-    - name: Java
-      level: 80%
-    - name: JavaScript
-      level: 60%
-    - name: Verilog
-      level: 40%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
