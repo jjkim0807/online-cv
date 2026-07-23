@@ -55,6 +55,13 @@
         >{{ sidebar.github }}</a
       >
     </li>
+    {% endif %} {% if sidebar.dblp %}
+    <li class="dblp">
+      <i class="fas fa-book"></i>
+      <a href="https://dblp.org/pid/{{ sidebar.dblp }}.html" target="_blank"
+        >DBLP</a
+      >
+    </li>
     {% endif %} {% if sidebar.gitlab %}
     <li class="gitlab">
       <i class="fab fa-gitlab"></i>
