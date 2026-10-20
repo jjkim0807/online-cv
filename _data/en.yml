@@ -1,5 +1,6 @@
 #
 # English version — rendered at /online-cv/en/
+# Source of truth: MaestroACP Notes/resume-industry.md (keep in sync)
 #
 
 sidebar:
@@ -7,10 +8,10 @@ sidebar:
   education: False
 
   name: Jaejin Kim
-  tagline: ML / AI Engineer — LLM Code Generation & Applied ML
+  tagline: ML / AI Engineer — LLM code generation, model evaluation & benchmarking
   avatar: profile.jpg
 
-  email: jaejin.kim@snu.ac.kr
+  email: jaejin.kim.dev@gmail.com
   citizenship: Korea
   linkedin: jjkim0807
   github: jjkim0807
@@ -28,100 +29,104 @@ sidebar:
 career-profile:
   title: Summary
   summary: |
-    M.S. in Artificial Intelligence (SNU) specializing in **LLM-based code generation and evaluation**, with 3 papers at ACL / COLING (ArchCode: 37 citations). Combine NLP research with **end-to-end engineering** — independently designed and shipped multi-agent LLM systems, an MCP tool server, on-device ML apps, and a knowledge-graph pipeline. Comfortable across research prototyping and production delivery (Python, PyTorch, LLM tooling, Android).
+    M.S. in Artificial Intelligence (SNU) specializing in LLM-based code generation and evaluation; 3 papers at ACL / COLING (second author on ArchCode and DuET, fourth author on PERC; ArchCode 37 citations).
+
+    Sole implementer of the experimental frameworks behind two of them, including evaluation harnesses that run generated code in Docker-isolated, identical environments to measure not just correctness but execution time and memory fairly.
+
+    Hands-on with LLM serving (vLLM, Ollama, LiteLLM) and agent pipelines (LangChain, LangGraph).
 
 skills:
   title: Skills
   groups:
-    - name: Languages
-      items: Python, C/C++, Java, Kotlin, SQL, Dart
-    - name: ML / NLP
-      items: PyTorch, HuggingFace Transformers, LLMs (prompting, RAG, evaluation), BERT, code-generation models, on-device inference
-    - name: Systems &amp; Tools
-      items: Multi-agent orchestration, Model Context Protocol (MCP), Docker, Git, Neo4j, REST APIs, Android
+    - name: LLM evaluation harnesses
+      items: Evaluation code for 6 code-generation benchmarks; Docker-isolated runs measuring accuracy, execution time, and memory
+    - name: LLM inference &amp; serving
+      items: vLLM, Ollama, LiteLLM
+    - name: LLM agents
+      items: LangChain, LangGraph, RAG, text-to-SQL, multi-agent orchestration
+    - name: Experiment infrastructure
+      items: PyTorch, Docker, multi-GPU Linux server administration
 
 experiences:
   title: Experience
   info:
+    - role: Researcher (Ph.D. program)
+      time: 2025.9 - 2026.5
+      company: |
+        [Language & Data Intelligence Lab](https://ldilab.github.io), Seoul National University
+      details: |
+        - Researched LLM-based text-to-SQL and agentic database exploration (unpublished): LLM agents explore the schema, actual values, and domain-specific local knowledge over multiple steps to build an answer.
     - role: Graduate Research Assistant
       time: 2023.9 - 2025.8
       company: |
-        Language & Data Intelligence Lab, Seoul National University (SNU)
+        [Language & Data Intelligence Lab](https://ldilab.github.io), Seoul National University
       details: |
-        - Co-developed LLM code-generation and code-evaluation methods → 3 peer-reviewed papers (ACL 2024, COLING 2025, Findings of ACL 2026); advised by Prof. Seung-won Hwang
-        - Built experiment pipelines evaluating code LLMs on HumanEval, CodeContests, MultiPL-E, LiveCodeBench, BigCodeBench, and DevEval
-    - role: Research Intern — Data Systems Lab
-      time: 2020.06 - 2021.08
+        - Co-developed LLM code-generation and evaluation methods; 3 papers (2nd author: ArchCode, DuET; 4th: PERC); advised by Prof. Seung-won Hwang
+        - Sole implementer of the ArchCode and DuET experimental frameworks; LLM pipelines built with LangChain/LangGraph
+        - Built Docker-isolated evaluation harnesses measuring correctness, execution time, and memory fairly; ran all benchmark experiments (HumanEval, CodeContests, MultiPL-E, LiveCodeBench, BigCodeBench, DevEval)
+    - role: Research Intern
+      time: 2020.06 - 2022.06
       company: |
-        [Data Systems Lab](https://dslab.postech.ac.kr), Pohang University of Science and Technology (POSTECH)
+        [Data Systems Lab](https://dslab.postech.ac.kr), POSTECH
       details: |
-        - Researched multi-hop question answering
-        - Teaching Assistant, Samsung Big Data programming course
-    - role: Research Intern — Computing & Control Engineering Lab
+        - Researched multi-hop QA and text-to-SQL (SQLBot); TA for a Samsung Big Data course; managed the lab's multi-GPU servers
+    - role: Research Intern
       time: 2019.06 - 2019.12
       company: |
-        [COCEL](https://www.cocel.postech.ac.kr/), POSTECH
+        [Computing & Control Engineering Lab](https://www.cocel.postech.ac.kr/), POSTECH
       details: |
-        - Voice-assistant robot arm augmentation; drone-sound landing guidance
-    - role: Research Intern — AI Development Group
+        - Voice-assistant robot arm; drone-sound landing guidance
+    - role: Intern — AI Development Group
       time: 2019.01 - 2019.02
       company: Samsung Electronics
       details: |
-        - Built and fine-tuned a BERT-based NLU model and integrated it into the Bixby capsule classifier
-    - role: QA Intern
-      time: 2018.06 - 2018.08
-      company: |
-        [Robomation](https://robomation.net/)
-      details: |
-        - QA during development of [PockeTurtle](https://robomation.net/?page_id=3155) & [Cheese Stick](https://robomation.net/?p=6426) educational robots
+        - BERT prototype (TensorFlow) for the Bixby capsule classifier
 
 projects:
-  title: Selected Projects
-  intro: Solo developer; repos private (demo on request).
+  title: Personal Project
   assignments:
-    - title: "MaestroACP — autonomous multi-agent orchestration system"
-      tagline: "Python, SQLite, LLM APIs. Message-based planner/orchestrator/runner dispatching coding tasks to LLM agents across hosts, with task ledger, memory store, and background daemons."
-    - title: "youtube-search-mcp — LLM tool-use server"
-      tagline: "Python, MCP, YouTube Data API v3. Model Context Protocol server exposing search + video verification as callable tools for LLM agents."
-    - title: "Pebble — on-device Go (Baduk) AI app"
-      tagline: "Dart/Flutter, KataGo. Mobile Go app running KataGo inference fully on-device (no server), with a Lichess-style UX."
-    - title: "WorldGraph — LLM-powered knowledge graph"
-      tagline: "Python, Neo4j. Builds a typed entity graph from documents via LLM-based relation inference."
-    - title: "DanceMirror — shipped Android app"
-      tagline: "Kotlin, CI/CD. Dance-practice app with an automated release pipeline (each main push auto-publishes a release APK)."
+    - title: "macp (Maestro Agent Control Plane) — autonomous agent operations"
+      link: https://github.com/jjkim0807/macp
+      tagline: "The user just queues tasks; workers analyze and split each one, assign a model tier (heavy / standard / light) and tools by difficulty, and run coding agents through research → plan → implement → verify → report, 24/7. When the task pool runs dry, a planner runs and re-reads the projects to find needed work. In 3 months of real use (2026.7–10), completed 1,080 tasks autonomously across 22 independent project repositories. Orthogonal to any particular coding agent."
 
 publications:
-  title: Publications
+  title: Selected Publications
   papers:
-    - title: "DuET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode"
-      link: https://arxiv.org/abs/2604.11514
-      authors: Hojae Han, Jaejin Kim, Seung-won Hwang, Yu Jin Kim, Moontae Lee
-      conference: Findings of ACL 2026 (to appear)
-    - title: "PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation"
-      link: https://aclanthology.org/2025.coling-main.534/
-      authors: Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang
-      conference: COLING 2025 (short)
     - title: "ArchCode: Incorporating Software Requirements in Code Generation with Large Language Models"
       link: https://aclanthology.org/2024.acl-long.730/
-      authors: Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang
-      conference: ACL 2024 · 37 citations
+      code: https://github.com/ldilab/ArchCode
+      authors: Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang (second author)
+      conference: ACL 2024 · 37 citations · SOTA code-generation accuracy; introduced HumanEval-NFR, the first benchmark for non-functional requirements in generated code
+    - title: "DuET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode"
+      link: https://aclanthology.org/2026.findings-acl.2144/
+      code: https://github.com/ldilab/DuET
+      authors: Hojae Han, Jaejin Kim, Seung-won Hwang, Yu Jin Kim, Moontae Lee (second author)
+      conference: Findings of ACL 2026 · SOTA test-output prediction by combining LLM-simulated pseudocode execution with real code execution
+    - title: "PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation"
+      link: https://aclanthology.org/2025.coling-main.534/
+      code: https://github.com/medduk9871/perc
+      authors: Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang (fourth author)
+      conference: COLING 2025 (short) · retrieves few-shot examples by pseudocode plans for low-resource languages; beats prior RAG methods
 
 education:
   title: Education
   info:
+    - degree: Ph.D. Program, Artificial Intelligence
+      university: |
+        Interdisciplinary Program in Artificial Intelligence, Seoul National University
+      time: 2025.9 - present (on leave)
     - degree: M.S. in Artificial Intelligence
       university: |
-        [Language & Data Intelligence Lab](https://ldilab.github.io) — Interdisciplinary Program in Artificial Intelligence, Seoul National University (SNU)
+        [Language & Data Intelligence Lab](https://ldilab.github.io) — Interdisciplinary Program in Artificial Intelligence, Seoul National University
       time: 2023.9 - 2025.8
       details: |
         - Advised by Prof. Seung-won Hwang
-        - Research on LLM-based code generation and test / execution output prediction
-    - degree: B.S. double major in Convergence IT Engineering & Computer Science
+    - degree: B.S., Convergence IT Engineering & Computer Science (double major)
       university: |
         Pohang University of Science and Technology (POSTECH)
       time: 2017.2 - 2021.8
       details: |
-        - Honors: cum laude
+        - cum laude
         - Exchange semesters: UC Berkeley (2017.06–08); Stony Brook University (2017.09–12)
 
 footer: >
