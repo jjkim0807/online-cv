@@ -55,7 +55,8 @@ experiences:
       company: |
         서울대학교 [언어·데이터지능 연구실](https://ldilab.github.io)
       details: |
-        - LLM 기반 text-to-SQL과 agentic database exploration 연구 (미발표). LLM 에이전트가 스키마·실제 값·해당 도메인의 로컬 지식까지 여러 단계에 걸쳐 탐색하며 답을 구성하는 방식.
+        - 의료 도메인 데이터베이스를 대상으로 LLM 기반 text-to-SQL과 agentic database exploration 연구 (미발표). LLM 에이전트가 스키마·실제 값·해당 도메인의 로컬 지식까지 여러 단계에 걸쳐 탐색하며 답을 구성하는 방식.
+        - 에이전트 SQL의 실행 결과가 정답 SQL의 결과와 달라도 내용에 따라 정답일 수 있는 애매한 경우를 어떻게 판정할지 평가 방법도 연구.
     - role: 연구원 (석사)
       time: 2023.09 - 2025.08
       company: |

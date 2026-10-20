@@ -55,7 +55,8 @@ experiences:
       company: |
         [Language & Data Intelligence Lab](https://ldilab.github.io), Seoul National University
       details: |
-        - Researched LLM-based text-to-SQL and agentic database exploration (unpublished): LLM agents explore the schema, actual values, and domain-specific local knowledge over multiple steps to build an answer.
+        - Researched LLM-based text-to-SQL and agentic database exploration on medical-domain databases (unpublished): LLM agents explore the schema, actual values, and domain-specific local knowledge over multiple steps to build an answer.
+        - Also studied how to judge ambiguous cases where an agent's SQL returns a different result from the gold SQL yet can still be correct.
     - role: Graduate Research Assistant
       time: 2023.9 - 2025.8
       company: |
