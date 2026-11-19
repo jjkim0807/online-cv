@@ -55,7 +55,7 @@ experiences:
       company: |
         서울대학교 [언어·데이터지능 연구실](https://ldilab.github.io)
       details: |
-        - 의료 도메인 데이터베이스를 대상으로 LLM 기반 text-to-SQL과 agentic database exploration 연구 (미발표). LLM 에이전트가 스키마·실제 값·해당 도메인의 로컬 지식까지 여러 단계에 걸쳐 탐색하며 답을 구성하는 방식.
+        - 의료 도메인 데이터베이스를 대상으로 LLM 기반 text-to-SQL과 agentic database exploration 연구 (미발표). LLM 에이전트가 스키마·실제 값·그 DB에만 있는 로컬 지식까지 여러 단계에 걸쳐 탐색하며 답을 구성하는 방식.
         - 탐색 방식을 개선해 에이전트의 정답률을 높이는 데 집중. 평가는 실행 결과를 셀 단위로 비교한 F1에서 결과 테이블 전체를 LLM judge로 채점하는 방식으로 전환.
     - role: 연구원 (석사)
       time: 2023.09 - 2025.08
