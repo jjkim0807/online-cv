@@ -83,13 +83,6 @@ experiences:
       details: |
         - BERT prototype (TensorFlow) for the Bixby capsule classifier
 
-projects:
-  title: Personal Project
-  assignments:
-    - title: "macp (Maestro Agent Control Plane) — autonomous agent operations"
-      link: https://github.com/jjkim0807/macp
-      tagline: "The user just queues tasks; workers analyze and split each one, assign a model tier (heavy / standard / light) and tools by difficulty, and run coding agents through research → plan → implement → verify → report, 24/7. When the task pool runs dry, a planner runs and re-reads the projects to find needed work. In 3 months of real use (2026.7–10), completed 1,080 tasks autonomously across 22 independent project repositories. Orthogonal to any particular coding agent."
-
 publications:
   title: Selected Publications
   papers:

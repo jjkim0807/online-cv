@@ -83,13 +83,6 @@ experiences:
       details: |
         - Bixby capsule 분류기용 BERT 기반 모델 프로토타입 구현 (TensorFlow)
 
-projects:
-  title: 개인 프로젝트
-  assignments:
-    - title: "macp (Maestro Agent Control Plane) — 자율 에이전트 운영 시스템"
-      link: https://github.com/jjkim0807/macp
-      tagline: "사용자가 태스크를 쌓아 두기만 하면, 워커가 각 태스크를 분석해 하위 태스크로 쪼개고 난이도에 따라 모델 규모(heavy·standard·light)와 쓸 도구를 배분한 뒤, 코딩 에이전트로 조사 → 계획 → 구현 → 검증 → 보고까지 24시간 쉬지 않고 처리합니다. 태스크 풀이 비면 플래너가 프로젝트들을 직접 돌려 보고 다시 읽으며 필요한 일을 찾아 큐를 채웁니다. 실사용 3개월(2026.07–10) 동안 22개 독립 저장소에서 태스크 1,080개를 자동으로 완료했습니다. 특정 코딩 에이전트에 묶이지 않는 운영 계층을 지향합니다."
-
 publications:
   title: 주요 논문
   papers:
